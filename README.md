@@ -82,7 +82,7 @@ Find Nearby Help:
 Based on the user’s current location (fetched via Google Maps Geolocation API), the chatbot provides nearby emergency services.
 News API:
 Fetches the latest emergency news and allows filtering by keywords.
-Known Issues
+Known Issues:
 The location fetching can sometimes fail if the user's IP address is not available, and the fallback for manual location entry may not work seamlessly.
 The script requires valid API keys and may not work without them.
 Since it interacts with multiple APIs, any downtime or issue with external services may impact functionality.
