@@ -48,6 +48,7 @@ OpenAI API Key: To interact with OpenAI’s GPT model for querying and generatin
 Google Maps API Key: For location services, including fetching nearby emergency places.
 News API Key: To fetch the latest news articles related to emergencies.
 Ensure that the placeholders in the script (YOUR_OPENAI_API_KEY, YOUR_GOOGLE_MAPS_API_KEY, YOUR_NEWS_API_KEY) route to your respective API keys in the .env file in the same directory.
+API_template.env is a template .env file to store the user's API keys
 
 Usage:
 Running the Script:
@@ -87,4 +88,5 @@ Fetches the latest emergency news and allows filtering by keywords.
 Known Issues:
 The location fetching can sometimes fail if the user's IP address is not available, and the fallback for manual location entry may not work seamlessly.
 The script requires valid API keys (stored in .env file in the same directory as this Python script) and may not work without them.
+API_template.env is a template .env file to store the user's API keys
 Since it interacts with multiple APIs, any downtime or issue with external services may impact functionality.
