@@ -47,7 +47,7 @@ You will need the following API keys:
 OpenAI API Key: To interact with OpenAI’s GPT model for querying and generating responses.
 Google Maps API Key: For location services, including fetching nearby emergency places.
 News API Key: To fetch the latest news articles related to emergencies.
-Ensure you replace the placeholders in the script (YOUR_OPENAI_API_KEY, YOUR_GOOGLE_MAPS_API_KEY, YOUR_NEWS_API_KEY) with actual API keys.
+Ensure that the placeholders in the script (YOUR_OPENAI_API_KEY, YOUR_GOOGLE_MAPS_API_KEY, YOUR_NEWS_API_KEY) route to the respective API keys in the .env file in the same directory.
 
 Usage:
 Running the Script:
@@ -86,5 +86,5 @@ Fetches the latest emergency news and allows filtering by keywords.
 
 Known Issues:
 The location fetching can sometimes fail if the user's IP address is not available, and the fallback for manual location entry may not work seamlessly.
-The script requires valid API keys and may not work without them.
+The script requires valid API keys (stored in .env file) and may not work without them.
 Since it interacts with multiple APIs, any downtime or issue with external services may impact functionality.
