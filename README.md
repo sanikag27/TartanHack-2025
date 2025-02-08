@@ -25,11 +25,13 @@ The chatbot also allows users to input their location or use their IP address to
 - **openai** – For interacting with the OpenAI API to handle emergency-related queries.
 - **requests** – To fetch data from various APIs such as Google Maps and News API.
 - **pandas** – For data handling (if needed).
-- **re** – For regular expression operations.
+- **re** – For regular expression operations (standard Python library).
 - **googlemaps** – For interfacing with the Google Maps API to get nearby places.
 - **streamlit** – For creating the interactive web-based user interface.
-- **time** – For handling time delays in the chatbot.
-- **threading** – To handle asynchronous API requests in parallel.
+- **time** – For handling time delays in the chatbot (standard Python library).
+- **threading** – To handle asynchronous API requests in parallel (standard Python library).
+- **urllib** – For working with URLs (standard Python library).
+- **json** – For parsing JSON data (standard Python library).
 
 ---
 
