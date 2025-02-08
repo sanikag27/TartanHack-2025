@@ -57,7 +57,7 @@ To run the Streamlit chatbot interface, use the following command:
 bash
 Copy
 Edit
-streamlit run ScottyPimpin.py
+streamlit run ScottyCrew.py
 This will open a web interface in your browser where you can interact with the chatbot.
 
 Interacting with the Chatbot:
