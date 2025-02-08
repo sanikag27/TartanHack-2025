@@ -40,15 +40,14 @@ To install the necessary dependencies, run the following command:
 ```bash
 pip install openai requests pandas googlemaps streamlit
 
-APIs and Keys
+APIs and Keys:
 You will need the following API keys:
-
 OpenAI API Key: To interact with OpenAI’s GPT model for querying and generating responses.
 Google Maps API Key: For location services, including fetching nearby emergency places.
 News API Key: To fetch the latest news articles related to emergencies.
 Ensure you replace the placeholders in the script (YOUR_OPENAI_API_KEY, YOUR_GOOGLE_MAPS_API_KEY, YOUR_NEWS_API_KEY) with actual API keys.
 
-Usage
+Usage:
 Running the Script:
 To run the Streamlit chatbot interface, use the following command:
 
@@ -71,7 +70,7 @@ When using the chatbot interface, you might get responses like this:
 User: "How to perform CPR?"
 Bot: "1. Call for help. 2. Begin chest compressions by placing hands in the center of the chest and pressing down hard and fast. 3. Continue CPR until help arrives."
 
-Code Structure
+Code Structure:
 Main Logic:
 The code uses Streamlit to create an interactive UI where users can input their queries.
 The google_place function fetches nearby emergency services using the Google Places API.
@@ -82,6 +81,7 @@ Find Nearby Help:
 Based on the user’s current location (fetched via Google Maps Geolocation API), the chatbot provides nearby emergency services.
 News API:
 Fetches the latest emergency news and allows filtering by keywords.
+
 Known Issues:
 The location fetching can sometimes fail if the user's IP address is not available, and the fallback for manual location entry may not work seamlessly.
 The script requires valid API keys and may not work without them.
